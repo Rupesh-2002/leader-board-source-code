@@ -1,0 +1,110 @@
+.leader-board{
+    font-weight: bold;
+    color: rgba(203,203,203,1);
+    margin: auto;
+    height: 50dvh;
+    overflow-y: scroll;
+    box-sizing: border-box;
+    background-image: url(../../public/boardImage.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.leader-board::-webkit-scrollbar{
+    overflow: hidden;
+    width: 0;
+    height: 0;
+}
+
+.table{
+    margin : auto;
+    border-spacing: 0 0.1rem;
+    position: relative;
+    width: 100%;
+    /* font-size: 1.5rem; */
+}
+
+tr{
+    height: calc(50dvh/11);
+}
+
+
+td{
+    padding-right: 20px;  
+}
+
+.board-header{
+    position: sticky;
+    top: 0;
+    text-align: left; 
+    background-color: rgba(4,4,4,0.7);
+    color: rgba(251,163,31,1);
+}
+.name{
+    width: 100%;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.prize-money{
+    text-align: right;
+}
+
+.time{
+    border-bottom-right-radius: 30px; 
+}
+
+.board-item{
+    background-color: rgba(4,4,4,0.7);
+    padding-right: 40px;
+}
+
+.first-position-item{
+    background-color: rgba(243, 185, 39, 0.9);
+    color: black;
+}
+.second-position-item{  
+    background-color: rgba(167,167,167,0.9);
+    color: black;
+}
+.third-position-item{
+    background-color: rgba(224, 103, 37, 0.9);
+    color: black;
+}
+
+.position-number{
+    background-color: whitesmoke;
+    color: black;
+    padding: 0 0.2rem;
+    width: 100%;
+    border-bottom-right-radius: 8px;
+    text-align: center;
+}
+
+.first-position-number{
+    background-color: rgba(0,0,0,0.8);
+    color: rgb(232, 183, 61);
+    padding: 0 0.2rem;
+    width: 100%;
+    border-bottom-right-radius: 8px;
+    text-align: center;
+}
+
+.second-position-number{
+    background-color: rgba(0,0,0,0.8);
+    color: rgb(218, 216, 216);
+    border-bottom-right-radius: 8px;
+    width: 100%;
+    padding: 0 0.2rem;
+    text-align: center;
+}
+
+.third-position-number{
+    background-color: rgba(0,0,0,0.8);
+    color: rgb(225, 107, 44);
+    width: 100%;
+    padding: 0 0.2rem;
+    border-bottom-right-radius: 8px;
+    text-align: center;
+}

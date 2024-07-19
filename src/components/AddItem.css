@@ -1,0 +1,45 @@
+.inActiveForm{
+    /* display: none;
+     */
+     visibility: hidden;
+}
+
+.add{
+    background-image: url(../../public/additem.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 40vh; */
+}
+
+form{
+    background-color:  #f2f2f2;
+    padding: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"]{
+    padding: 5px;
+    margin: 5px auto;
+    display: block;
+    background-color: #45a049;
+    border: none;
+    border-radius: 5px;
+}
+
+input[type="text"]{
+    width: 100%;
+    padding: 10px ;
+    display: block;
+    box-sizing: border-box;
+
+}
+.btn{
+    margin: auto;
+    display: block;
+    padding: 5px;
+    background-color: aquamarine;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
